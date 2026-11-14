@@ -2,7 +2,7 @@
 
 # The Lunar Org
 
-Research and engineering collective building hardened desktop security, zero-trust containment runtimes, and private networking infrastructure.
+Independent engineering and research collective building systems software, defensive security tooling, and developer infrastructure.
 
 <p align="center">
   <a href="https://x.com/1tsRaj"><img src="https://img.shields.io/badge/X-@1tsRaj-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
@@ -14,23 +14,30 @@ Research and engineering collective building hardened desktop security, zero-tru
 
 ---
 
-### Core Focus Areas
+### Research & Engineering Domains
 
-- **Endpoint Isolation & Containment:** Hardened process sandboxing via Windows Job Objects and token deprivation.
-- **Private Network Mesh:** Low-latency encrypted transport using userspace WireGuard and DNS-over-HTTPS.
-- **Hardware & Sensor Protection:** Local gates for microphone, camera, and clipboard surveillance defense.
-- **Zero-Telemetry Standard:** All tools and enclaves operate strictly local-first with zero tracking.
+- **Systems & Runtime Engineering:** High-performance, low-level tooling and architectures built for resilience, isolation, and control.
+- **Defensive Security & Privacy:** Zero-trust principles, local-first computing, hardware gates, and private communication protocols.
+- **Open Infrastructure & Tooling:** Autonomous developer platforms, network utilities, and modern open-source foundations.
 
 ---
 
-### Contact & Channels
+### Philosophy
+
+1. **Local-First & Zero-Telemetry:** Systems that empower the user and operate transparently without unnecessary surveillance or third-party phone-home dependencies.
+2. **Resilience by Design:** Building hardened software that anticipates failures, partitions, and adversarial environments.
+3. **Focused Craft:** Prioritizing performance, clean architecture, and minimal attack surface across every initiative.
+
+---
+
+### Contact & Inquiries
 
 - **Founder:** [Himanshu Raj (@ItsHimanshu-Raj)](https://github.com/ItsHimanshu-Raj)
-- **Direct / Inquiries:** [@1tsRaj on X](https://x.com/1tsRaj)
+- **Direct / Updates:** [@1tsRaj on X](https://x.com/1tsRaj)
 - **Instagram:** [@1tsraj](https://instagram.com/1tsraj)
 
 ---
 
 <div align="center">
-<sub>The Lunar Org • Building resilient defensive software</sub>
+<sub>The Lunar Org • Building resilient, modern technology</sub>
 </div>
