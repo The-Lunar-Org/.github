@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <!-- Deep obsidian base with subtle ambient vignette -->
+    <radialGradient id="matteGlow" cx="50%" cy="50%" r="65%">
+      <stop offset="0%" stop-color="#141419"/>
+      <stop offset="60%" stop-color="#0A0A0D"/>
+      <stop offset="100%" stop-color="#050507"/>
+    </radialGradient>
+
+    <!-- Hairline border gradient -->
+    <linearGradient id="hairlineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.02"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <!-- Precision eclipse mask centered at (0, 0) -->
+    <mask id="eclipseMask">
+      <rect x="-60" y="-60" width="120" height="120" fill="#FFFFFF"/>
+      <!-- Inner cutout offsetting to create an ultra-clean razor crescent -->
+      <circle cx="10" cy="-6" r="19" fill="#000000"/>
+    </mask>
+
+    <!-- Subtle engineering grid -->
+    <pattern id="dotGrid" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="15" cy="15" r="0.75" fill="#FFFFFF" fill-opacity="0.035"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .mono-meta {
+      font-family: "SF Mono", "JetBrains Mono", "Menlo", "Consolas", monospace;
+      font-size: 9.5px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      fill: #4E4E58;
+      text-transform: uppercase;
+    }
+    .wordmark {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Inter", "Helvetica Neue", sans-serif;
+      font-size: 32px;
+      font-weight: 600;
+      letter-spacing: 16px;
+      fill: #F0F0F3;
+      text-transform: uppercase;
+    }
+    .submark {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", "Helvetica Neue", sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      letter-spacing: 2px;
+      fill: #7D7D8A;
+    }
+  </style>
+
+  <!-- Frame Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#matteGlow)"/>
+  <rect width="1200" height="360" rx="16" fill="url(#dotGrid)"/>
+  <rect width="1200" height="360" rx="16" fill="none" stroke="url(#hairlineGrad)" stroke-width="1"/>
+
+  <!-- Technical Corner Metadata (Industrial / Linear style) -->
+  <g class="mono-meta">
+    <text x="44" y="42">EST. 2026 // OPEN SYSTEMS</text>
+    <text x="1156" y="42" text-anchor="end">AUTONOMOUS &amp; DISCIPLINED</text>
+    <text x="44" y="326">THE-LUNAR-ORG</text>
+    <text x="1156" y="326" text-anchor="end">GITHUB ARCHITECTURE</text>
+  </g>
+
+  <!-- Centerpiece Identity -->
+  <g transform="translate(600, 155)">
+    <!-- Bespoke Geometric Monogram / Emblem -->
+    <!-- Concentric Precision Ring -->
+    <circle cx="0" cy="-38" r="32" fill="none" stroke="#1E1E26" stroke-width="1"/>
+    <circle cx="0" cy="-38" r="32" fill="none" stroke="#EAEAEA" stroke-width="1" stroke-dasharray="14 10 3 10" stroke-opacity="0.3"/>
+
+    <!-- Sharp Geometric Eclipse Aperture -->
+    <g transform="translate(0, -38)">
+      <circle cx="0" cy="0" r="22" fill="#EDEDF0" mask="url(#eclipseMask)"/>
+      <circle cx="0" cy="0" r="2.5" fill="#FFFFFF"/>
+    </g>
+
+    <!-- Main Wordmark -->
+    <text x="8" y="44" class="wordmark" text-anchor="middle">L U N A R</text>
+
+    <!-- Hairline Divider -->
+    <line x1="-80" y1="64" x2="80" y2="64" stroke="url(#hairlineGrad)" stroke-width="1"/>
+
+    <!-- Refined Subtitle -->
+    <text x="0" y="88" class="submark" text-anchor="middle">Practical tools crafted with quiet discipline.</text>
+  </g>
+</svg>
