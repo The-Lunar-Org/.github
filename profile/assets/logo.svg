@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Dark obsidian backdrop -->
+    <radialGradient id="avatarGlow" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#181820"/>
+      <stop offset="65%" stop-color="#0B0B0E"/>
+      <stop offset="100%" stop-color="#050507"/>
+    </radialGradient>
+
+    <!-- Subtle border highlight -->
+    <linearGradient id="avatarBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.10"/>
+    </linearGradient>
+
+    <!-- Subtraction mask for precision aperture crescent -->
+    <mask id="crescentCut">
+      <rect x="0" y="0" width="512" height="512" fill="#FFFFFF"/>
+      <!-- Offsetting circle cuts out the crescent -->
+      <circle cx="296" cy="228" r="95" fill="#000000"/>
+    </mask>
+  </defs>
+
+  <!-- Squircle / Rounded Backdrop -->
+  <rect width="512" height="512" rx="112" fill="url(#avatarGlow)"/>
+  <rect width="512" height="512" rx="112" fill="none" stroke="url(#avatarBorder)" stroke-width="2"/>
+
+  <!-- Outer Concentric Orbit Track -->
+  <circle cx="256" cy="256" r="162" fill="none" stroke="#22222A" stroke-width="2"/>
+  <circle cx="256" cy="256" r="162" fill="none" stroke="#EAEAEA" stroke-width="2" stroke-dasharray="16 28 6 28" stroke-opacity="0.35"/>
+
+  <!-- Core Precision Lunar Aperture Emblem -->
+  <circle cx="256" cy="256" r="110" fill="#EDEDF2" mask="url(#crescentCut)"/>
+
+  <!-- Focal Point Dot (Optic Core) -->
+  <circle cx="296" cy="228" r="12" fill="#EDEDF2"/>
+
+  <!-- Cardinal Precision Accents -->
+  <circle cx="256" cy="74" r="2.5" fill="#666675"/>
+  <circle cx="256" cy="438" r="2.5" fill="#666675"/>
+  <circle cx="74" cy="256" r="2.5" fill="#666675"/>
+  <circle cx="438" cy="256" r="2.5" fill="#666675"/>
+</svg>
