@@ -61,10 +61,14 @@ Taking the time to make small interactions feel right.
 
 <br/>
 
-### *Say Hello*
+### *Community &amp; Connect*
+
+Join us in the quiet hours on **[Discord](https://discord.gg/hSvuG9bcFN)**.
+
+<br/>
 
 Crafted by **[Himanshu Raj](https://github.com/ItsHimanshu-Raj)**<br/>
-[X / Twitter](https://x.com/1tsRaj) &nbsp;•&nbsp; [Instagram](https://instagram.com/1tsraj) &nbsp;•&nbsp; [GitHub](https://github.com/ItsHimanshu-Raj)
+[Discord](https://discord.gg/hSvuG9bcFN) &nbsp;•&nbsp; [GitHub](https://github.com/ItsHimanshu-Raj) &nbsp;•&nbsp; [X / Twitter](https://x.com/1tsRaj) &nbsp;•&nbsp; [Instagram](https://instagram.com/1tsraj)
 
 <br/>
 <br/>

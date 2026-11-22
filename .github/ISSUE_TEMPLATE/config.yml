@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
+  - name: 🌙 The Lunar Org Discord Community
+    url: https://discord.gg/hSvuG9bcFN
+    about: Join our Discord community for real-time discussions, telemetry, and updates.
   - name: 💬 General Questions & Discussions
     url: https://github.com/orgs/The-Lunar-Org/discussions
     about: Please ask general questions or start discussions here.
