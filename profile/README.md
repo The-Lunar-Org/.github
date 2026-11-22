@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/The-Lunar-Org/.github/main/profile/assets/lunar-header.svg" width="100%" alt="The Lunar Org — Software for the quiet hours" />
+<img src="https://raw.githubusercontent.com/The-Lunar-Org/.github/main/profile/assets/banner.png" width="100%" alt="The Lunar Org — Software for the quiet hours" />
 
 <br/>
 <br/>
