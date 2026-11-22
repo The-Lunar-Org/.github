@@ -1,62 +1,61 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/The-Lunar-Org/.github/main/profile/assets/lunar-header.svg" alt="The Lunar Org" width="100%" />
-</p>
+<div align="center">
 
-<p align="center">
-  <em>Quiet craftsmanship, purposeful code, and software built to endure.</em>
-</p>
+<img src="https://raw.githubusercontent.com/The-Lunar-Org/.github/main/profile/assets/lunar-header.svg" width="100%" alt="The Lunar Org" />
 
-<p align="center">
-  <a href="https://github.com/ItsHimanshu-Raj"><img src="https://img.shields.io/badge/Architect-Himanshu_Raj-121820?style=flat-square&logo=github&logoColor=CAD5E2" alt="Dev"/></a>
-  <a href="https://x.com/1tsRaj"><img src="https://img.shields.io/badge/X-@1tsRaj-121820?style=flat-square&logo=x&logoColor=CAD5E2" alt="X"/></a>
-  <a href="https://instagram.com/1tsraj"><img src="https://img.shields.io/badge/Instagram-@1tsraj-121820?style=flat-square&logo=instagram&logoColor=CAD5E2" alt="Instagram"/></a>
-  <img src="https://img.shields.io/badge/Status-Calm_&_Operational-121820?style=flat-square&logo=pulse&logoColor=58D68D" alt="Status"/>
-</p>
+<br/>
+<br/>
 
----
+Building software we actually use. Practical tools, clean systems, and quiet software.
 
-### ✦ The Ethos
+<br/>
 
-**The Lunar Org** is an independent studio and engineering collective. We craft tools we depend on ourselves, explore robust architectures, and design software with intentional restraint.
+[Projects](#-projects) &nbsp;•&nbsp; [Standards](#-standards) &nbsp;•&nbsp; [Connect](#-connect)
 
-> *"Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away."*
-
-- **Intentional Restraint** — We reject bloat, unnecessary dependencies, and surveillance telemetry.
-- **Quiet Utility** — Tools designed to work quietly in the background, surfacing only when meaningful signal is present.
-- **Deep Exploration** — Continuous experimentation across systems programming, automation, and privacy-preserving primitives.
+<br/>
 
 ---
 
-### 🌑 Ecosystem & Repositories
+<br/>
 
-| Project | Description | Stack | Status |
-| :--- | :--- | :--- | :--- |
-| [**lunar-bot**](https://github.com/The-Lunar-Org/lunar-bot) | Autonomous telemetry, GitHub webhooks, and operations pipeline for Discord. | `Python` `Discord.py` `aiohttp` `Docker` | `Active` |
-| [**.github**](https://github.com/The-Lunar-Org/.github) | Organization-wide standards, security protocols, and community health definitions. | `Markdown` `YAML` | `Stable` |
+### ✦ Projects
 
----
+| Project | Description | Stack |
+| :--- | :--- | :--- |
+| **[lunar-bot](https://github.com/The-Lunar-Org/lunar-bot)** | Official Discord operations bot & GitHub webhook telemetry router. | Python • Discord.py • Docker |
 
-### ⚙️ Core Principles
+<br/>
 
-```text
-  01. Signal > Noise          Every feature must justify its existence.
-  02. Deterministic           Predictable states, transparent logs, and clean failures.
-  03. Respectful              No non-consensual tracking or dark patterns.
-  04. Evergreen               Built using foundational tools that last years, not weeks.
-```
+### ✦ Philosophy
 
----
+- **Use it ourselves:** Practical software built for real-world daily workflows.
+- **Calm by default:** No bloat, no unwanted tracking, no noise.
+- **Built to last:** Clean codebases, minimal dependencies, and solid fundamentals.
 
-### 🛡️ Standards & Governance
+<br/>
 
-Our collective maintains unified community health standards across all repositories:
+### ✦ Standards
 
-- 📋 [**Contributing Guidelines**](CONTRIBUTING.md) — How we collaborate, format commits, and test changes.
-- 🔒 [**Security Policy**](SECURITY.md) — Responsible vulnerability disclosure guidelines.
-- 🤝 [**Code of Conduct**](CODE_OF_CONDUCT.md) — Fostering an inclusive, respectful environment.
+Default community guidelines across all Lunar repositories:
+
+[Security Policy](SECURITY.md) &nbsp;•&nbsp; [Contributing](CONTRIBUTING.md) &nbsp;•&nbsp; [Code of Conduct](CODE_OF_CONDUCT.md)
+
+<br/>
 
 ---
 
-<p align="center">
-  <sub>✦ <b>The Lunar Org</b> — Built with calm & precision. ✦</sub>
-</p>
+<br/>
+
+### ✦ Connect
+
+Maintained by **[Himanshu Raj](https://github.com/ItsHimanshu-Raj)**
+
+[GitHub](https://github.com/ItsHimanshu-Raj) &nbsp;•&nbsp; [X (@1tsRaj)](https://x.com/1tsRaj) &nbsp;•&nbsp; [Instagram (@1tsraj)](https://instagram.com/1tsraj)
+
+<br/>
+<br/>
+
+<sub>Learn. Build. Repeat.</sub>
+
+<br/>
+
+</div>
