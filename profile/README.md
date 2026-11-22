@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/The-Lunar-Org/.github/main/profile/assets/lunar-brand.png" width="100%" alt="The Lunar Org — Pure Typographic Architecture" />
+<img src="https://raw.githubusercontent.com/The-Lunar-Org/.github/main/profile/assets/banner.png" width="100%" alt="The Lunar Org" />
 
 <br/>
 <br/>
@@ -51,9 +51,11 @@ Taking the time to make small interactions feel right.
 
 <br/>
 
-### *Standards &amp; Health*
+### *Governance &amp; Legal*
 
-[Security Policy](SECURITY.md) &nbsp;•&nbsp; [Contributing Guidelines](CONTRIBUTING.md) &nbsp;•&nbsp; [Community Pledge](CODE_OF_CONDUCT.md)
+[Trademark Guidelines](TRADEMARK.md) &nbsp;•&nbsp; [Terms of Service](TERMS.md) &nbsp;•&nbsp; [Privacy Policy](PRIVACY.md)
+
+[Security Policy](SECURITY.md) &nbsp;•&nbsp; [Governance](GOVERNANCE.md) &nbsp;•&nbsp; [Contributing](CONTRIBUTING.md) &nbsp;•&nbsp; [Community Standards](CODE_OF_CONDUCT.md)
 
 <br/>
 
