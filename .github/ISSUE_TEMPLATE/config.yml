@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 General Questions & Discussions
+    url: https://github.com/orgs/The-Lunar-Org/discussions
+    about: Please ask general questions or start discussions here.
+  - name: 🔒 Report a Security Vulnerability
+    url: https://github.com/The-Lunar-Org/.github/blob/main/SECURITY.md
+    about: Please report security vulnerabilities privately following our Security Policy.
