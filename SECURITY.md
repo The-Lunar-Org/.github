@@ -1,73 +1,35 @@
-# Vulnerability Disclosure and Security Policy
+# Vulnerability Disclosure Policy & Safe Harbor
 
-**Effective Date:** November 23, 2026  
-**Organization:** The Lunar Org (`https://github.com/The-Lunar-Org`)
+**Effective Date:** November 27, 2026 · **Version:** v2.0 · **Document ID:** `DOC-04`  
+**Organization:** The Lunar Org · **Web Reader:** [lunarorg.pages.dev/legal/security](https://lunarorg.pages.dev/legal/security)  
+**Jurisdictions Covered:** Global, US (CFAA / DMCA), EU (NIS2 / CVD), UK (CMA 1990), India (IT Act)
 
----
-
-## 1. Commitment to Security
-
-The Lunar Org considers the security and integrity of our open-source software, telemetry infrastructure, and community members paramount. We appreciate the invaluable contributions of security researchers and engineers who discover and report potential vulnerabilities in good faith.
+> Coordinated vulnerability disclosure (CVD) protocol and international legal Safe Harbor for good-faith security researchers.
 
 ---
 
-## 2. Safe Harbor and Legal Immunity
+## 1. Legal Safe Harbor & Authorized Research
 
-The Lunar Org provides a comprehensive **Safe Harbor** for security research conducted in accordance with this policy:
+The Lunar Org authorizes and welcomes good-faith security research conducted strictly in compliance with this Policy. If you make a good-faith effort to comply with these terms during your research, we consider your testing authorized:
 
-### 2.1 Authorized Access
-If you conduct vulnerability research and reporting in good faith and in full compliance with this policy:
-- We consider your activities authorized under applicable computer fraud and abuse laws (including the U.S. Computer Fraud and Abuse Act (CFAA), 18 U.S.C. § 1030).
-- We will not initiate, pursue, or support legal action against you for accidental, good-faith violations of this policy.
-- We waive any anti-circumvention claims under copyright statutes (including Section 1201 of the Digital Millennium Copyright Act (DMCA)) for good-faith security research.
+We will not initiate or support civil or criminal legal action against you for accidental, good-faith violations of this Policy under applicable computer misuse and anti-circumvention statutes worldwide—including the U.S. Computer Fraud and Abuse Act (18 U.S.C. § 1030), Section 1201 of the U.S. DMCA, the UK Computer Misuse Act 1990, EU national transpositions of Directive 2013/40/EU, and Sections 43/66 of India's Information Technology Act, 2000.
 
-### 2.2 Conditions for Safe Harbor
-To qualify for Safe Harbor protection, you must:
-1. Cease research immediately upon confirming a vulnerability and do not access, alter, exfiltrate, or destroy user data or system integrity.
-2. Maintain strict confidentiality regarding the vulnerability until public disclosure has been formally coordinated and remediated.
-3. Not conduct denial-of-service (DoS/DDoS) attacks, spamming, social engineering, or physical security attacks against maintainers or hosting providers.
-4. Report the issue promptly pursuant to Section 4 below.
+## 2. Mandatory Conditions for Safe Harbor
 
----
+To remain protected under Safe Harbor, researchers must adhere to all of the following:
 
-## 3. Scope
+- Stop immediately upon verifying a vulnerability; do not exfiltrate, modify, delete, or retain user or organizational data.
+- Use only test accounts or local isolated environments; never access another user's private data.
+- Do not perform denial-of-service (DoS/DDoS), volumetric brute-forcing, social engineering, phishing, or physical attacks.
+- Do not test third-party infrastructure (GitHub, Cloudflare, Discord) outside our application logic.
+- Maintain strict confidentiality until we have verified and deployed a remediation.
 
-### In Scope
-- Repositories hosted under the official organization: `https://github.com/The-Lunar-Org/*`
-- Official Discord telemetry gateways, webhooks, and bot services (`lunar-bot`)
-- Community health configuration files and security workflows
+## 3. Confidential Reporting & Response SLAs
 
-### Out of Scope
-- Third-party hosting infrastructure operated by GitHub or Discord.
-- Issues without verifiable security impact (e.g., missing HTTP headers without practical exploitability).
-- Denial of Service attacks or volumetric flooding against public endpoints.
+Never disclose security vulnerabilities in public issues or public chat channels. Submit encrypted or detailed confidential reports directly to contact.theraj01@gmail.com including reproduction steps, affected component/version, impact assessment, and any suggested remediation.
+
+Target SLAs: Initial acknowledgment within 48 hours; triage and severity assessment within 5 business days; coordinated public disclosure only after a verified patch is released.
 
 ---
 
-## 4. Reporting Process
-
-Please do **NOT** report security vulnerabilities through public GitHub issues, discussions, or public Discord channels.
-
-### Preferred Reporting Channels
-1. **GitHub Private Vulnerability Reporting**:
-   Navigate to the **Security** tab of the impacted repository and select **"Report a vulnerability"**.
-2. **Confidential Direct Disclosure**:
-   Reach out directly to the Lead Maintainer:
-   - **Dev:** [Himanshu Raj (@ItsHimanshu-Raj)](https://github.com/ItsHimanshu-Raj)
-   - **Direct Inquiries:** Confidential communication channels designated on GitHub.
-
-### Information Required
-- Vulnerability description, severity classification (CVSS if available), and potential impact.
-- Step-by-step reproduction instructions or a harmless minimal Proof-of-Concept (PoC).
-- Proposed mitigation or patch code, if available.
-
----
-
-## 5. Response Service Level Agreement (SLA)
-
-- **Initial Acknowledgment:** Within forty-eight (48) hours of receipt.
-- **Triage & Impact Assessment:** Within five (5) business days.
-- **Remediation & Patch Deployment:** Target resolution within thirty (30) days depending on severity.
-- **Public Disclosure:** Mutually coordinated following verification of the patch.
-
-Thank you for upholding responsible disclosure and keeping our ecosystem secure.
+*Contact / Legal & Privacy Notices: `contact.theraj01@gmail.com`*

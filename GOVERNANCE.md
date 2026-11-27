@@ -1,48 +1,25 @@
-# Organization Governance and Stewardship
+# Organizational Governance & Stewardship Charter
 
-**Effective Date:** November 23, 2026  
-**Organization:** The Lunar Org (`https://github.com/The-Lunar-Org`)
+**Effective Date:** November 27, 2026 · **Version:** v2.0 · **Document ID:** `DOC-05`  
+**Organization:** The Lunar Org · **Web Reader:** [lunarorg.pages.dev/legal/governance](https://lunarorg.pages.dev/legal/governance)  
+**Jurisdictions Covered:** Global
 
----
-
-## 1. Overview
-
-The Lunar Org operates as an independent software collective focused on deliberate engineering, minimal bloat, and quiet craftsmanship. This document defines the organizational structure, decision-making processes, contribution lifecycle, and project stewardship.
+> Operational governance, maintainer authority, compliance accountability, and product lifecycle standards.
 
 ---
 
-## 2. Roles and Responsibilities
+## 1. Organization Structure & Stewardship
 
-### 2.1 Lead Architect & Project Owner
-- **Incumbent:** [Himanshu Raj (@ItsHimanshu-Raj)](https://github.com/ItsHimanshu-Raj)
-- **Authority:** Final decision-making authority over organization vision, repository creation, branding, architectural roadmaps, release approvals, and legal stewardship.
+The Lunar Org operates as an independent software studio and engineering collective led by its Lead Architect and Project Owner, Himanshu Raj. Final authority over product roadmaps, security posture, legal compliance, release signing, and brand stewardship rests with the Lead Architect.
 
-### 2.2 Maintainers
-- Maintainers hold write and merge privileges on specific repositories.
-- Responsible for reviewing pull requests, managing issue triages, upholding security practices, and ensuring code quality standards.
+## 2. Engineering Review & Release Accountability
 
-### 2.3 Contributors
-- Anyone who submits pull requests, files bug reports, proposes architectural enhancements, or participates in discussions.
-- Contributors agree to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md) and [Contributing Guidelines](CONTRIBUTING.md).
+All production releases undergo deterministic build verification, dependency auditing, and privacy review prior to public distribution. Where open-source repositories accept external contributions, pull requests require maintainer review and adherence to our Contributing and Security policies.
+
+## 3. Product Lifecycle & Amendments
+
+Products and repositories are classified as Active (receiving feature and security updates), Maintenance (receiving critical security fixes), or Archived (preserved read-only). Governance and legal policies are reviewed periodically and updated with clear version numbers and effective dates.
 
 ---
 
-## 3. Decision-Making Process
-
-1. **Consensus-Seeking:** Maintainers and contributors openly discuss architectural proposals, issues, and pull requests via GitHub Issues and Discussions.
-2. **Review Threshold:** Code changes require review and approval from at least one authorized maintainer prior to merging into production branches (`main`).
-3. **Lead Arbitration:** In the event of an irreconcilable technical divergence or dispute, the Lead Architect serves as the ultimate arbiter.
-
----
-
-## 4. Repository Lifecycle
-
-- **Active:** Maintained, monitored, and receiving continuous updates and security patches.
-- **Stable / Maintenance:** Feature-complete projects receiving bug fixes and security updates as needed.
-- **Archived:** Read-only projects preserved for historical reference or discontinued implementations.
-
----
-
-## 5. Amendments to Governance
-
-Any modification to this Governance document requires review and formal approval by the Lead Architect.
+*Contact / Legal & Privacy Notices: `contact.theraj01@gmail.com`*

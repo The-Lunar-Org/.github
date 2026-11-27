@@ -1,79 +1,64 @@
-# Privacy Policy
+# Global Privacy Policy & Data Protection Notice
 
-**Effective Date:** November 23, 2026  
-**Data Controller:** The Lunar Org (`https://github.com/The-Lunar-Org`)
+**Effective Date:** November 27, 2026 · **Version:** v2.0 · **Document ID:** `DOC-02`  
+**Organization:** The Lunar Org · **Web Reader:** [lunarorg.pages.dev/legal/privacy](https://lunarorg.pages.dev/legal/privacy)  
+**Jurisdictions Covered:** GDPR (EU/EEA), UK GDPR, US (CCPA/CPRA), India (DPDPA), Brazil (LGPD), Canada, APAC
 
----
-
-## 1. Introduction and Scope
-
-The Lunar Org ("we", "us", or "our") is committed to data privacy, minimal data collection, and transparency. This Privacy Policy outlines our legal obligations and practices concerning the collection, storage, processing, and protection of information across our repositories, GitHub webhooks, Discord integrations (`lunar-bot`), and community communication channels.
-
-We operate under a fundamental privacy principle: **Collect only what is technically necessary to operate, and retain nothing extraneous.**
+> Comprehensive global data protection notice covering GDPR, UK GDPR, CCPA/CPRA, India DPDPA, LGPD, PIPEDA, APPI, and APAC/Global privacy rights.
 
 ---
 
-## 2. Information We Collect
+## 1. Data Controller & Privacy Principles
 
-### 2.1 Discord Bot Telemetry (`lunar-bot`)
-When you interact with our Discord bot or open a support ticket/modmail thread, the following data may be processed in transient runtime memory:
-- **Discord Metadata:** User ID, Guild/Server ID, Channel ID, and Message Timestamps.
-- **Support / Modmail Content:** Message content submitted specifically through modmail direct messages or designated ticket channels for the sole purpose of resolving support requests.
-- **Runtime Commands:** Execution records for slash commands (`/status`, `/reply`, `/close`).
+The Lunar Org ("Data Controller", "we", "us") operates under a strict data-minimization architecture: we do not embed advertising SDKs, third-party behavioral analytics, fingerprinting scripts, or tracking cookies in our static websites or desktop software.
 
-### 2.2 GitHub Webhook Events
-When GitHub webhook events are dispatched to our telemetry listener:
-- Event payloads (commits, branch references, PR numbers, commit authors, CI status updates) are verified via cryptographic HMAC-SHA256 signatures and routed to Discord channels.
-- We do **not** store or persist GitHub credentials, private repository tokens, or codebase intellectual property.
+For all privacy inquiries, data subject access requests (DSARs), or grievance redressal under any jurisdiction, contact our Data Protection & Grievance Contact at contact.theraj01@gmail.com.
 
----
+## 2. Categories of Data Processed
 
-## 3. How We Use Information
+Depending on how you interact with The Lunar Org, only the following strictly necessary categories of information may be processed:
 
-Information processed by our software is strictly utilized for:
-- Delivering automated notifications of code changes and pull requests.
-- Facilitating direct communication between users and community maintainers via support tickets.
-- Monitoring system latency, health, and gateway availability.
+- Static Website Delivery (Edge Infrastructure): When you access lunarorg.pages.dev, our edge hosting provider (Cloudflare Pages) processes standard transient network metadata (IP address, TLS handshake parameters, user-agent, requested URL) strictly for DDoS mitigation, routing, and security integrity.
+- Local-First Desktop & Web Applications: Core application settings, preferences, and workspace state are stored locally on your device unless you explicitly initiate a cloud or synchronization action.
+- Operational Integrations & Webhooks: Automated developer tools process event payloads (such as repository event identifiers or Discord channel/user IDs for support routing) transiently in memory with cryptographic verification.
+- Direct Correspondence: If you email us or submit a support inquiry, we process your contact address and message content solely to respond to and resolve your request.
 
-**We do NOT sell, lease, monetize, broker, or trade personal data or telemetry records to any third party for advertising, profiling, or analytical commercialization.**
+## 3. Zero Sale, Zero Sharing for Cross-Context Advertising
 
----
+The Lunar Org does NOT sell, rent, lease, trade, or monetize personal information, and does NOT "share" personal information for cross-context behavioral advertising within the meaning of the California Consumer Privacy Act / California Privacy Rights Act (CCPA/CPRA) or any analogous global statute.
 
-## 4. Legal Basis for Processing (GDPR Compliance)
+## 4. European Union / EEA (GDPR) & United Kingdom (UK GDPR)
 
-For individuals located within the European Economic Area (EEA) and United Kingdom, we process personal data under the following legal bases pursuant to Article 6 of the General Data Protection Regulation (GDPR):
-- **Legitimate Interests:** To provide secure, reliable, and functional open-source operations and community support.
-- **Consent:** When you voluntarily submit direct messages or support tickets to our modmail system.
+Under Regulation (EU) 2016/679 (GDPR), the UK GDPR, and the UK Data Protection Act 2018, we process personal data solely on the following lawful bases (Article 6): (a) Legitimate Interests in maintaining secure, reliable infrastructure and preventing abuse; (b) Performance of a Contract when delivering requested features; (c) Consent where explicitly provided; and (d) Legal Obligation.
 
----
+Your EU/UK Rights: You have the right to access (Art. 15), rectification (Art. 16), erasure / "right to be forgotten" (Art. 17), restriction of processing (Art. 18), data portability (Art. 20), objection to processing (Art. 21), and withdrawal of consent at any time without affecting prior lawful processing. You also have the right to lodge a complaint with your local EU Data Protection Authority or the UK Information Commissioner's Office (ICO).
 
-## 5. Data Retention and Deletion
+## 5. United States Privacy Rights (CA, VA, CO, CT, UT, TX, and Others)
 
-- **Transient In-Memory Data:** Bot memory objects, routing tables, and ephemeral event caches are purged automatically upon task completion or bot process restarts.
-- **Discord Audit Logs:** Support ticket channel logs remain within the designated Discord server channels until archived or deleted by authorized administrators.
-- **Right to Erasure (GDPR Art. 17 / CCPA):** You have the right to request deletion of any ticket history or records containing your Discord User ID. Such requests will be honored within thirty (30) days of receipt.
+Residents of California (CCPA/CPRA & CalOPPA), Virginia (VCDPA), Colorado (CPA), Connecticut (CTDPA), Utah (UCPA), Texas (TDPSA), and other U.S. states with comprehensive privacy laws have the right to: (1) confirm whether we process personal data and access specific pieces of it; (2) request correction of inaccurate data; (3) request deletion of personal data; (4) opt out of targeted advertising, sale, or profiling (none of which we conduct); and (5) receive equal service and pricing without discrimination for exercising privacy rights. We honor Global Privacy Control (GPC) browser signals automatically.
 
----
+## 6. India (Digital Personal Data Protection Act, 2023 & IT Act, 2000)
 
-## 6. Security Safeguards
+For Data Principals in India under the Digital Personal Data Protection Act, 2023 (DPDPA) and the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011: personal data is processed solely for lawful purposes with clear notice and consent or legitimate uses permitted under Section 7 of the DPDPA.
 
-We implement industry-standard technical and organizational security measures, including:
-- Cryptographic verification (`X-Hub-Signature-256` HMAC-SHA256) for all incoming webhooks to prevent spoofing or unauthorized payload delivery.
-- TLS 1.3 encryption in transit for all external network communications.
-- Principle of least privilege for Discord bot permissions (OAuth2 scopes restricted strictly to required actions).
+Your Rights & Grievance Officer: You have the right to access information about processed data, request correction, completion, updating, and erasure of personal data, nominate another individual to exercise rights in the event of death or incapacity, and seek grievance redressal. Grievance Officer contact: Himanshu Raj (contact.theraj01@gmail.com), acknowledged within 48 hours and resolved within statutory timelines.
 
----
+## 7. Canada, Brazil, Australia, Japan, Singapore, South Korea, Switzerland & Rest of World
 
-## 7. Third-Party Services
+We extend equivalent baseline data protection rights globally, including compliance with:
 
-Our software interfaces with third-party service providers subject to their respective privacy terms:
-- **GitHub:** [GitHub Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement)
-- **Discord:** [Discord Privacy Policy](https://discord.com/privacy)
+- Canada (PIPEDA & Quebec Law 25): Right to access, challenge accuracy, withdraw consent, and contact our Privacy Officer.
+- Brazil (LGPD — Law No. 13.709/2018): Confirmation of processing, access, correction, anonymization/blocking/deletion of unnecessary data, portability, and petition to the ANPD.
+- Australia (Privacy Act 1988 & Australian Privacy Principles): Transparent handling, access, correction, and complaint escalation to the OAIC.
+- Japan (APPI), Singapore (PDPA 2012), South Korea (PIPA), and Switzerland (revised FADP): Right to request disclosure, correction, suspension of use, or deletion, and notice of cross-border technical routing.
+- Cross-Border Transfers: Where technical infrastructure routes traffic internationally, appropriate safeguards—including Standard Contractual Clauses (SCCs), adequacy decisions, and TLS 1.3 encryption—apply.
+
+## 8. Data Retention, Children, and Technical Safeguards
+
+Transient runtime data is purged automatically upon session completion or process restart. Support correspondence is retained only as long as necessary to resolve the inquiry or comply with mandatory legal obligations, and deleted within thirty (30) days of a verified erasure request.
+
+We do not knowingly collect personal data from children below the statutory age of digital consent in their country without verified parental authorization. All network transit uses TLS 1.3 encryption and cryptographic payload verification.
 
 ---
 
-## 8. Privacy Inquiries and Data Subject Requests
-
-To exercise your privacy rights or request data deletion, contact:
-- **Lead Maintainer:** Himanshu Raj (@ItsHimanshu-Raj)
-- **Discord:** [discord.gg/hSvuG9bcFN](https://discord.gg/hSvuG9bcFN)
+*Contact / Legal & Privacy Notices: `contact.theraj01@gmail.com`*
