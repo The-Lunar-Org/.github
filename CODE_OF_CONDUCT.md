@@ -1,7 +1,7 @@
 # Global Community Standards & Code of Conduct
 
 **Effective Date:** November 27, 2026 · **Version:** v2.0 · **Document ID:** `DOC-06`  
-**Organization:** The Lunar Org · **Web Reader:** [lunarorg.pages.dev/legal/conduct](https://lunarorg.pages.dev/legal/conduct)  
+**Organization:** The Lunar Org (Unincorporated GitHub Organization · India) · **Web Reader:** [lunarorg.pages.dev/legal/conduct](https://lunarorg.pages.dev/legal/conduct)  
 **Jurisdictions Covered:** Global
 
 > Universal behavioral standards, anti-harassment policy, and enforcement procedures across all countries and community spaces.

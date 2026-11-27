@@ -1,7 +1,7 @@
 # Organizational Governance & Stewardship Charter
 
 **Effective Date:** November 27, 2026 · **Version:** v2.0 · **Document ID:** `DOC-05`  
-**Organization:** The Lunar Org · **Web Reader:** [lunarorg.pages.dev/legal/governance](https://lunarorg.pages.dev/legal/governance)  
+**Organization:** The Lunar Org (Unincorporated GitHub Organization · India) · **Web Reader:** [lunarorg.pages.dev/legal/governance](https://lunarorg.pages.dev/legal/governance)  
 **Jurisdictions Covered:** Global
 
 > Operational governance, maintainer authority, compliance accountability, and product lifecycle standards.
@@ -10,7 +10,7 @@
 
 ## 1. Organization Structure & Stewardship
 
-The Lunar Org operates as an independent software studio and engineering collective led by its Lead Architect and Project Owner, Himanshu Raj. Final authority over product roadmaps, security posture, legal compliance, release signing, and brand stewardship rests with the Lead Architect.
+The Lunar Org operates as an unincorporated, independent software collective and GitHub organization (github.com/The-Lunar-Org) based in India and led by its founder and Lead Architect, Himanshu Raj. It is not a registered legal entity, company, or partnership. Final authority over product roadmaps, security posture, legal compliance, release signing, and brand stewardship rests with the Lead Architect.
 
 ## 2. Engineering Review & Release Accountability
 

@@ -1,7 +1,7 @@
 # Global Privacy Policy & Data Protection Notice
 
 **Effective Date:** November 27, 2026 · **Version:** v2.0 · **Document ID:** `DOC-02`  
-**Organization:** The Lunar Org · **Web Reader:** [lunarorg.pages.dev/legal/privacy](https://lunarorg.pages.dev/legal/privacy)  
+**Organization:** The Lunar Org (Unincorporated GitHub Organization · India) · **Web Reader:** [lunarorg.pages.dev/legal/privacy](https://lunarorg.pages.dev/legal/privacy)  
 **Jurisdictions Covered:** GDPR (EU/EEA), UK GDPR, US (CCPA/CPRA), India (DPDPA), Brazil (LGPD), Canada, APAC
 
 > Comprehensive global data protection notice covering GDPR, UK GDPR, CCPA/CPRA, India DPDPA, LGPD, PIPEDA, APPI, and APAC/Global privacy rights.
@@ -10,9 +10,9 @@
 
 ## 1. Data Controller & Privacy Principles
 
-The Lunar Org ("Data Controller", "we", "us") operates under a strict data-minimization architecture: we do not embed advertising SDKs, third-party behavioral analytics, fingerprinting scripts, or tracking cookies in our static websites or desktop software.
+The Lunar Org ("Data Controller" / "Data Fiduciary", "we", "us") is an unincorporated, independent GitHub organization operated by Himanshu Raj from India. We operate under a strict data-minimization architecture: we do not embed advertising SDKs, third-party behavioral analytics, fingerprinting scripts, or tracking cookies in our static websites or desktop software.
 
-For all privacy inquiries, data subject access requests (DSARs), or grievance redressal under any jurisdiction, contact our Data Protection & Grievance Contact at contact.theraj01@gmail.com.
+For all privacy inquiries, data subject access requests (DSARs), or grievance redressal under Indian or international law, contact our Data Protection & Grievance Contact at contact.theraj01@gmail.com.
 
 ## 2. Categories of Data Processed
 

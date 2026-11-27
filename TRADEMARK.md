@@ -1,7 +1,7 @@
 # Trademark, Brand & Intellectual Property Policy
 
 **Effective Date:** November 27, 2026 · **Version:** v2.0 · **Document ID:** `DOC-03`  
-**Organization:** The Lunar Org · **Web Reader:** [lunarorg.pages.dev/legal/trademark](https://lunarorg.pages.dev/legal/trademark)  
+**Organization:** The Lunar Org (Unincorporated GitHub Organization · India) · **Web Reader:** [lunarorg.pages.dev/legal/trademark](https://lunarorg.pages.dev/legal/trademark)  
 **Jurisdictions Covered:** Global, WIPO / Madrid, US (USPTO / DMCA), EUIPO, UKIPO, India (TM Act)
 
 > Rules governing use of The Lunar Org trademarks, product names, logos, trade dress, and international DMCA / IP takedown procedures.
@@ -10,9 +10,9 @@
 
 ## 1. Proprietary Marks and Trade Dress
 
-"The Lunar Org", "Lunar", "LunarQuest", "LunarOffice", associated monograms, geometric marks, wordmarks, UI trade dress, and domain/organization identifiers (collectively, the "Marks") are proprietary trademarks, service marks, and brand identifiers of The Lunar Org.
+"The Lunar Org", "Lunar", "LunarQuest", "LunarOffice", associated monograms, geometric marks, wordmarks, UI trade dress, and domain/organization identifiers (collectively, the "Marks") are unregistered common-law marks and brand identifiers used in good faith by The Lunar Org, an unincorporated GitHub organization based in India.
 
-All rights, title, and goodwill arising from any authorized or unauthorized use of the Marks inure exclusively to The Lunar Org globally under common-law trademark principles and applicable statutory frameworks.
+All rights, title, and goodwill arising from any authorized or unauthorized use of the Marks inure exclusively to The Lunar Org and its founder under common-law passing-off principles (including Section 27(2) of India's Trade Marks Act, 1999) and applicable international unfair-competition and copyright laws.
 
 ## 2. Permitted Nominative Fair Use
 

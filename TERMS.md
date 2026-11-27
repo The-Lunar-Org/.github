@@ -1,7 +1,7 @@
 # Terms of Service & End-User License Terms
 
 **Effective Date:** November 27, 2026 · **Version:** v2.0 · **Document ID:** `DOC-01`  
-**Organization:** The Lunar Org · **Web Reader:** [lunarorg.pages.dev/legal/terms](https://lunarorg.pages.dev/legal/terms)  
+**Organization:** The Lunar Org (Unincorporated GitHub Organization · India) · **Web Reader:** [lunarorg.pages.dev/legal/terms](https://lunarorg.pages.dev/legal/terms)  
 **Jurisdictions Covered:** Global, US, EU / EEA, UK, India, Canada, APAC, LATAM
 
 > Global terms governing access to The Lunar Org websites, desktop applications, APIs, and services across all jurisdictions.
@@ -10,7 +10,9 @@
 
 ## 1. Parties, Scope, and Binding Acceptance
 
-These Terms of Service and End-User License Terms (collectively, the "Terms") constitute a legally binding agreement between you (whether acting as an individual consumer, sole proprietor, developer, researcher, or authorized representative of a corporation or other legal entity, "User" or "You") and The Lunar Org ("Organization", "we", "us", or "our").
+These Terms of Service and End-User License Terms (collectively, the "Terms") constitute a legally binding agreement between you (whether acting as an individual consumer, sole proprietor, developer, researcher, or authorized representative of a legal entity, "User" or "You") and The Lunar Org ("Organization", "we", "us", or "our"), an independent, unincorporated software collective and GitHub organization operated by Himanshu Raj and based in India.
+
+The Lunar Org is not a registered corporation, partnership, or limited liability company (LLP); all references to "The Lunar Org" denote the unincorporated project collective operating under the GitHub organization handle The-Lunar-Org.
 
 These Terms govern your access to and use of our official websites (including lunarorg.pages.dev and associated subdomains), desktop and web software products (including LunarQuest and LunarOffice), command-line tools, automated integrations, documentation, and related services (collectively, the "Services").
 
@@ -61,7 +63,7 @@ You represent and warrant that you are not located in, under the control of, or 
 
 ## 9. Governing Law, Severability, and Amendments
 
-Subject to mandatory consumer protection laws of your jurisdiction of habitual residence (which shall always prevail where required by law), these Terms are governed by general principles of international commercial and contract law and the laws applicable to the Organization's principal place of administration, without regard to conflict-of-law rules.
+Subject to mandatory consumer protection laws of your country of habitual residence (which shall always prevail where required by law), these Terms are governed by and construed in accordance with the laws of the Republic of India—including the Indian Contract Act, 1872 and the Information Technology Act, 2000—without regard to conflict-of-law principles. Subject to mandatory local consumer forum rights, competent courts in India shall have jurisdiction over disputes arising from these Terms.
 
 If any provision of these Terms is held invalid or unenforceable by a court of competent jurisdiction, that provision shall be enforced to the maximum extent permissible and the remaining provisions shall remain in full force. We may update these Terms by publishing a revised effective date.
 

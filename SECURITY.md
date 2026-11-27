@@ -1,7 +1,7 @@
 # Vulnerability Disclosure Policy & Safe Harbor
 
 **Effective Date:** November 27, 2026 · **Version:** v2.0 · **Document ID:** `DOC-04`  
-**Organization:** The Lunar Org · **Web Reader:** [lunarorg.pages.dev/legal/security](https://lunarorg.pages.dev/legal/security)  
+**Organization:** The Lunar Org (Unincorporated GitHub Organization · India) · **Web Reader:** [lunarorg.pages.dev/legal/security](https://lunarorg.pages.dev/legal/security)  
 **Jurisdictions Covered:** Global, US (CFAA / DMCA), EU (NIS2 / CVD), UK (CMA 1990), India (IT Act)
 
 > Coordinated vulnerability disclosure (CVD) protocol and international legal Safe Harbor for good-faith security researchers.
