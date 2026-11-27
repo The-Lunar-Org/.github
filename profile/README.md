@@ -65,9 +65,11 @@ Built with **Tauri 2 • Rust • React 19** for **macOS • Windows • Linux**
 
 ### ✦ Legal &amp; Governance
 
-[Trademark Policy](TRADEMARK.md) &nbsp;•&nbsp; [Terms of Service](TERMS.md) &nbsp;•&nbsp; [Privacy Policy](PRIVACY.md)
+[**Legal &amp; Compliance Portal**](https://lunarorg.pages.dev/legal)
 
-[Security Policy](SECURITY.md) &nbsp;•&nbsp; [Governance](GOVERNANCE.md) &nbsp;•&nbsp; [Contributing](CONTRIBUTING.md) &nbsp;•&nbsp; [Community Standards](CODE_OF_CONDUCT.md)
+[Terms of Service](https://lunarorg.pages.dev/legal/terms) &nbsp;•&nbsp; [Privacy Policy](https://lunarorg.pages.dev/legal/privacy) &nbsp;•&nbsp; [Trademark &amp; IP](https://lunarorg.pages.dev/legal/trademark)
+
+[Security &amp; Safe Harbor](https://lunarorg.pages.dev/legal/security) &nbsp;•&nbsp; [Governance](https://lunarorg.pages.dev/legal/governance) &nbsp;•&nbsp; [Code of Conduct](https://lunarorg.pages.dev/legal/conduct) &nbsp;•&nbsp; [Contributing](https://github.com/The-Lunar-Org/.github/blob/main/CONTRIBUTING.md)
 
 <br/>
 
